@@ -1,0 +1,232 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    }
+    
+    html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    }
+    
+    body{
+      font-family: calibri;
+      background-color: #F5F5F5;
+    }
+    
+    .h1{
+     font-size: 34px;
+      color: aqua;
+      margin-left: 100px;
+      margin-top: -73;
+    }
+
+    .h2{
+     font-size: 22;
+    color: aquamarine;
+    margin-left: 100px;
+    margin-top: -32;
+    white-space: nowrap;
+    
+    
+    }
+    
+    #logo{
+    width: 95;
+    
+    }
+    
+    #movement{
+    background-color: rgb(127, 255, 212);
+    border: 20px;
+    border-color: black;
+    margin-top: -7px;
+    font-size: 20px;
+    padding: 0;
+    border-width: 2;
+    border-style: dashed;
+    white-space: nowrap;
+    }
+    #head{
+    background-color: rgb(117, 167, 68);
+    margin-left: -10px;
+    margin-right: -7;
+    white-space: nowrap;
+    }
+    
+    #l2{
+      padding: 0;
+    }
+    .nev{
+    margin-top: -59;
+    
+    }
+    
+    nav{
+    text-align: right;
+    font-size: 19;
+    white-space: nowrap;
+    }
+    
+    nav a {
+      text-decoration: none;
+      padding-left: 11px;
+      background-color: rgb(111, 204, 17);
+      border-radius: 20px;
+      padding-right: 11px;
+      
+    }
+    .Contact{
+    color: red;
+    }
+    
+    nav a:active,:hover{
+     color: red;
+    }
+    #check{
+      display: none;
+    }
+    
+    #checkbtn{
+      float: right;
+      padding-left:11 ;
+      font-size: 30px;
+      text-align: right;
+      display: none;
+    }
+    
+    #check:checked ~ a{
+        display: block;
+        left: 80%;
+        padding-left: -10%;
+        padding-right: 145px;
+        text-align: center;
+    
+    }
+    
+    @media(max-width: 980px){
+      #checkbtn{
+        display: block;
+      }
+      nav a {
+        list-style: none;
+         width: 120px;
+         height: 70px;
+         background-color: rgb(149, 227, 93);
+         border-radius: 0%;
+         position: relative;
+         top: 40px;
+         left: 200%;
+      }
+      nav a {
+        display: none;
+      }
+    }
+
+    @media(max-width: 1280px){
+        #checkbtn{
+          display: block;
+        }
+        nav a {
+          list-style: none;
+           width: 120px;
+           height: 70px;
+           background-color: rgb(149, 227, 93);
+           border-radius: 0%;
+           position: relative;
+           top: 40px;
+           left: 200%;
+        }
+        nav a {
+          display: none;
+        }
+      }
+
+    #contact{
+        font-size: 100px;
+        text-align: center;
+       margin-top: 50;
+        padding: 0px, 0px, 25px;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 25px;
+        margin-top: -9;
+    }
+
+    hr{
+        width: 300;
+        height: 5;
+        background-color: #0092bc;
+    }
+
+    .location{
+      white-space: normal;
+    }
+
+.gif{
+    width: 90;
+}
+
+#email{
+    text-align: center;
+    font-size: 20px;
+}
+
+E-mail{
+    color: blue;
+}
+
+.gif2{
+height: 100;
+}
+
+#call{
+    text-align: center;
+    font-size: 20px ;
+}
+
+#call a {
+    font-size: 30px;
+}
+
+h4{
+cursor: default;
+font-size: 30px;
+margin: 0px;
+padding: 0px;
+color: #F5F5F5;
+}
+
+.footer{
+  margin-top: 40px;
+  margin-bottom: -65px;
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: #333;
+  text-align: center;
+  font-size: 20px;
+ padding-top: 25px;
+ color: rgb(102, 190, 14);
+}
+
+.footer a{
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  box-sizing: border-box;
+  color: chartreuse;
+}
+
+.footer a:hover,:active{
+  color: red;
+  text-decoration: underline;
+ }
