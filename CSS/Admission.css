@@ -20,6 +20,7 @@
     color: aqua;
     margin-left: 100px;
     margin-top: -73;
+    padding-right: 100px;
   }
   .h2{
    font-size: 22;
@@ -33,6 +34,11 @@
   #logo{
   width: 95;
   
+  }
+
+  #sticky{
+    position: fixed;
+    width: 100vw;
   }
   
   #movement{
@@ -56,6 +62,7 @@
   }
   .nev{
   margin-top: -59;
+  margin-right: 30px;
   
   }
   
@@ -72,7 +79,7 @@
     padding-right: 11px;
     
   }
-  .Home{
+  .Admission{
   color: red;
   }
   
@@ -141,8 +148,9 @@
     .Registration{
     margin: 0px;
     text-align: center;
-    padding-top: 55px;
-
+    padding-top: 15vh;
+    font-size: 70px;
+    color: dimgray;
     }
     
     #Admission{
@@ -212,4 +220,31 @@
     .button{
       text-align: center;
       margin-top: 21px;
+    }
+
+        @media(max-width: 360px){
+      .Registration{
+        font-size: 60px;
+      }
+    }
+
+    @media(max-width: 450px){
+      .h1{
+       font-size: 30px;
+       padding-bottom: 20px;
+      }
+    }
+
+    @media(max-width: 400px){
+      .h1{
+       font-size: 25px;
+       padding-bottom: 20px;
+      }
+    }
+
+    @media(max-width: 365px){
+      .h1{
+       font-size: 20px;
+       padding-bottom: 20px;
+      }
     }

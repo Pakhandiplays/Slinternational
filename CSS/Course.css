@@ -20,7 +20,9 @@
       color: aqua;
       margin-left: 100px;
       margin-top: -73;
+      padding-right: 100px;
     }
+
     .h2{
      font-size: 22;
     color: aquamarine;
@@ -34,6 +36,11 @@
     width: 95;
     
     }
+
+    #sticky{
+      position: fixed;
+      width: 100vw;
+    }
     
     #movement{
     background-color: rgb(127, 255, 212);
@@ -45,6 +52,7 @@
     border-width: 2;
     border-style: dashed;
     }
+    
     #head{
     background-color: rgb(117, 167, 68);
     margin-left: -10px;
@@ -56,6 +64,7 @@
     }
     .nev{
     margin-top: -59;
+    margin-right: 30px;
     
     }
     
@@ -141,8 +150,7 @@
   #course{
     text-align: center;
     font-size: 120px;
-    padding-top: 1px;
-    box-sizing: border-box;
+    padding-top: 10vh;
     cursor: default;
   }
 
@@ -204,3 +212,24 @@ h4{
     color: red;
     text-decoration: underline;
    }
+   
+   @media(max-width: 455px){
+    #course {
+      font-size: 100px;
+      padding-top: 200px;
+    }
+  }
+
+  @media(max-width: 285px){
+    #course {
+      font-size: 80px;
+      padding-top: 200px;
+    }
+  }
+
+  @media(max-width: 455px){
+    .info {
+   font-size: 50px;
+
+    }
+  }
