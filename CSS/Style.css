@@ -15,13 +15,13 @@ body{
   font-family: calibri;
 }
 
-h1{
+.h1{
  font-size: 34px;
   color: aqua;
   margin-left: 100px;
   margin-top: -73;
 }
-h2{
+.h2{
  font-size: 22;
 color: aquamarine;
 margin-left: 100px;
