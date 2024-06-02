@@ -10,17 +10,19 @@
   -ms-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   }
-
-body{
+  
+  body{
     font-family: calibri;
   }
-  
+
   .h1{
    font-size: 34px;
     color: aqua;
     margin-left: 100px;
     margin-top: -73;
+    padding-right: 100px;
   }
+
   .h2{
    font-size: 22;
   color: aquamarine;
@@ -34,6 +36,11 @@ body{
   width: 95;
   
   }
+
+  #sticky{
+    position: fixed;
+    width: 100vw;
+  }
   
   #movement{
   background-color: rgb(127, 255, 212);
@@ -45,6 +52,7 @@ body{
   border-width: 2;
   border-style: dashed;
   }
+  
   #head{
   background-color: rgb(117, 167, 68);
   margin-left: -10px;
@@ -56,6 +64,7 @@ body{
   }
   .nev{
   margin-top: -59;
+  margin-right: 30px;
   
   }
   
@@ -92,38 +101,59 @@ body{
   }
   
   #check:checked ~ a{
-    display: block;
-    left: 80%;
-    padding-left: -10%;
-    padding-right: 145px;
-    text-align: center;
-
-}
-
-@media(max-width: 980px){
-  #checkbtn{
-    display: block;
+      display: block;
+      left: 80%;
+      padding-left: -10%;
+      padding-right: 145px;
+      text-align: center;
+  
   }
-  nav a {
-    list-style: none;
-     width: 120px;
-     height: 70px;
-     background-color: rgb(149, 227, 93);
-     border-radius: 0%;
-     position: relative;
-     top: 40px;
-     left: 200%;
+  
+  @media(max-width: 980px){
+    #checkbtn{
+      display: block;
+    }
+    nav a {
+      list-style: none;
+       width: 120px;
+       height: 70px;
+       background-color: rgb(149, 227, 93);
+       border-radius: 0%;
+       position: relative;
+       top: 40px;
+       left: 200%;
+    }
+    nav a {
+      display: none;
+    }
   }
-  nav a {
-    display: none;
+    
+  @media(max-width: 1280px){
+    #checkbtn{
+      display: block;
+    }
+    nav a {
+      list-style: none;
+       width: 120px;
+       height: 70px;
+       background-color: rgb(149, 227, 93);
+       border-radius: 0%;
+       position: relative;
+       top: 40px;
+       left: 200%;
+    }
+    nav a {
+      display: none;
+    }
   }
-}
     
   #Achievements{
+
     text-align: center;
     font-size: 110px;
-    padding: 0px;
     cursor: default;
+    padding-top: 90px;
+    margin-top: 0px;
   }
 
   #First{
@@ -142,6 +172,39 @@ body{
     padding: 0px;
     margin: 0px;
   }
+
+  h4{
+    cursor: default;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    color: #F5F5F5;
+    }
+
+  .footer{
+    margin-top: 40px;
+    margin-bottom: -65px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #333;
+    text-align: center;
+    font-size: 20px;
+   padding-top: 25px;
+   color: rgb(102, 190, 14);
+  }
+  
+  .footer a{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    box-sizing: border-box;
+    color: chartreuse;
+  }
+  
+  .footer a:hover,:active{
+    color: red;
+    text-decoration: underline;
+   }
 
   @media(max-width: 950px){
     .Achievement_1{
@@ -163,6 +226,7 @@ body{
         display: block;
         font-size: 70px;
         margin-top: 80px;
+        padding-top: 110px;
       }
     }
 
@@ -187,6 +251,34 @@ body{
           display: block;
           font-size: 50px;
           margin-top: 80px;
+        }
+      }
+
+      @media(max-width: 430px){
+        .h1{
+          font-size: 28px;
+          padding-bottom: 7px;
+        }
+      }
+
+      @media(max-width: 381px){
+        .h1{
+          font-size: 25px;
+          padding-bottom: 9px;
+        }
+      }
+
+      @media(max-width: 350px){
+        .h1{
+          font-size: 21px;
+          padding-bottom: 14px;
+        }
+      }
+
+      @media(max-width: 323px){
+        .h1{
+          font-size: 17px;
+          padding-bottom: 16px;
         }
       }
 
