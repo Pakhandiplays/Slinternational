@@ -261,7 +261,30 @@ color: #F5F5F5;
  }
 }
 
-@media(max-width: 415px){
+@media(max-width: 430px){
   .h1{
-    font-size: 27px;
+    font-size: 28px;
+    padding-bottom: 7px;
   }
+}
+
+@media(max-width: 381px){
+  .h1{
+    font-size: 25px;
+    padding-bottom: 9px;
+  }
+}
+
+@media(max-width: 350px){
+  .h1{
+    font-size: 21px;
+    padding-bottom: 14px;
+  }
+}
+
+@media(max-width: 323px){
+  .h1{
+    font-size: 17px;
+    padding-bottom: 16px;
+  }
+}
