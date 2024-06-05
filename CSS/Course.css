@@ -101,13 +101,11 @@
     }
     
     #check:checked ~ a{
-        display: block;
-        left: 80%;
-        padding-left: -10%;
-        padding-right: 145px;
-        text-align: center;
-    
-    }
+      display: block;
+      left: 69%;
+     width: 130px;
+     text-align: center;
+  }
     
     @media(max-width: 980px){
       #checkbtn{
