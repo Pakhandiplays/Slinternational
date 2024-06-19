@@ -1,47 +1,49 @@
-*{
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   outline: 0;
-  }
-  
-  html{
+}
+
+html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
-  }
-  
-  body{
-    font-family: calibri;
-  }
-  
-  .h1{
-   font-size: 34px;
-    color: aqua;
-    margin-left: 100px;
-    margin-top: -73;
-    padding-right: 100px;
-  }
-  .h2{
-   font-size: 22;
+}
+
+body {
+  font-family: calibri;
+  background-image: url(data:image/png;base64,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);
+}
+
+.h1 {
+  font-size: 34px;
+  color: aqua;
+  margin-left: 100px;
+  margin-top: -73;
+  padding-right: 100px;
+}
+
+.h2 {
+  font-size: 22;
   color: aquamarine;
   margin-left: 100px;
   margin-top: -32;
-  
-  
-  }
-  
-  #logo{
-  width: 95;
-  
-  }
 
-  #sticky{
-    position: fixed;
-    width: 100vw;
-  }
-  
-  #movement{
+
+}
+
+#logo {
+  width: 95;
+
+}
+
+#sticky {
+  position: fixed;
+  width: 100vw;
+}
+
+#movement {
   background-color: rgb(127, 255, 212);
   border: 20px;
   border-color: black;
@@ -50,199 +52,211 @@
   padding: 0;
   border-width: 2;
   border-style: dashed;
-  }
-  #head{
+}
+
+#head {
   background-color: rgb(117, 167, 68);
   margin-left: -10px;
   margin-right: -7;
-  }
-  
-  #l2{
-    padding: 0;
-  }
-  .nev{
+}
+
+#l2 {
+  padding: 0;
+}
+
+.nev {
   margin-top: -59;
   margin-right: 30px;
-  
-  }
-  
-  nav{
+
+}
+
+nav {
   text-align: right;
   font-size: 19;
-  }
-  
-  nav a {
-    text-decoration: none;
-    padding-left: 11px;
-    background-color: rgb(111, 204, 17);
-    border-radius: 20px;
-    padding-right: 11px;
-    
-  }
-  .Admission{
-  color: red;
-  }
-  
-  nav a:active,:hover{
-   color: red;
-  }
-  #check{
-    display: none;
-  }
-  
-  #checkbtn{
-    float: right;
-    padding-left:11 ;
-    font-size: 30px;
-    text-align: right;
-    display: none;
-  }
-  
-  #check:checked ~ a{
-    display: block;
-    left: 69%;
-   width: 130px;
-   text-align: center;
 }
-  
-  @media(max-width: 980px){
-    #checkbtn{
-      display: block;
-    }
-    nav a {
-      list-style: none;
-       width: 120px;
-       height: 70px;
-       background-color: rgb(149, 227, 93);
-       border-radius: 0%;
-       position: relative;
-       top: 40px;
-       left: 200%;
-    }
-    nav a {
-      display: none;
-    }
+
+nav a {
+  text-decoration: none;
+  padding-left: 11px;
+  background-color: rgb(111, 204, 17);
+  border-radius: 20px;
+  padding-right: 11px;
+
+}
+
+.Admission {
+  color: red;
+}
+
+nav a:active,
+:hover {
+  color: red;
+}
+
+#check {
+  display: none;
+}
+
+#checkbtn {
+  float: right;
+  padding-left: 11;
+  font-size: 30px;
+  text-align: right;
+  display: none;
+}
+
+#check:checked~a {
+  display: block;
+  left: 69%;
+  width: 130px;
+  text-align: center;
+}
+
+@media(max-width: 980px) {
+  #checkbtn {
+    display: block;
   }
-    
-  @media(max-width: 1280px){
-    #checkbtn{
-      display: block;
-    }
-    nav a {
-      list-style: none;
-       width: 120px;
-       height: 70px;
-       background-color: rgb(149, 227, 93);
-       border-radius: 0%;
-       position: relative;
-       top: 40px;
-       left: 200%;
-    }
-    nav a {
-      display: none;
-    }
+
+  nav a {
+    list-style: none;
+    width: 120px;
+    height: 70px;
+    background-color: rgb(149, 227, 93);
+    border-radius: 0%;
+    position: relative;
+    top: 40px;
+    left: 200%;
   }
 
-    .Registration{
-    margin: 0px;
-    text-align: center;
-    padding-top: 15vh;
-    font-size: 70px;
-    color: dimgray;
-    }
-    
-    #Admission{
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    #submit{
-      background-color: green;
-    }
+  nav a {
+    display: none;
+  }
+}
 
-    #reset{
-      background-color: red;
-    }
+@media(max-width: 1280px) {
+  #checkbtn {
+    display: block;
+  }
 
-  button{
-      width: 150;
-      height: 50;
-      border-radius: 50px;
-      cursor: pointer;
-    }
+  nav a {
+    list-style: none;
+    width: 120px;
+    height: 70px;
+    background-color: rgb(149, 227, 93);
+    border-radius: 0%;
+    position: relative;
+    top: 40px;
+    left: 200%;
+  }
 
-    h3{
-      font-family: Calibri; 
-      font-size: 25pt;         
-      font-style: normal; 
-      font-weight: bold; 
-      color:SlateBlue;
-      text-align: center; 
-      text-decoration: underline
-    }
-    
-    table{
-      font-family: Calibri; 
-      color:white; 
-      font-size: 11pt; 
-      font-style: normal;
-      font-weight: bold; 
-      background-color: SlateBlue; 
-      border-collapse: collapse; 
-      border: 2px solid navy
-    }
-    table.inner{
-      border: 0px
-    }
-    
-    .table{
-      margin-top: 80px;
-      width: auto;
-      height: auto;
-    }
+  nav a {
+    display: none;
+  }
+}
 
-    #Birthday_Day{
-      width: 120px;
-    }
-    #Birthday_Month{
-      width: 120px;
-    }
-    #Birthday_Year{
-      width: 120px;
-    }
+.Registration {
+  margin: 0px;
+  text-align: center;
+  padding-top: 18vh;
+  font-size: 70px;
+  color: rosybrown;
+}
 
-    .button{
-      text-align: center;
-      margin-top: 21px;
-    }
+#Admission {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
 
-        @media(max-width: 360px){
-      .Registration{
-        font-size: 60px;
-      }
-    }
+#submit {
+  background-color: green;
+}
 
-    @media(max-width: 450px){
-      .h1{
-       font-size: 30px;
-       padding-bottom: 20px;
-      }
-    }
+#reset {
+  background-color: red;
+}
 
-    @media(max-width: 400px){
-      .h1{
-       font-size: 25px;
-       padding-bottom: 20px;
-      }
-    }
+button {
+  width: 150;
+  height: 50;
+  border-radius: 50px;
+  cursor: pointer;
+}
 
-    @media(max-width: 365px){
-      .h1{
-       font-size: 20px;
-       padding-bottom: 20px;
-      }
-    }
+h3 {
+  font-family: Calibri;
+  font-size: 25pt;
+  font-style: normal;
+  font-weight: bold;
+  color: SlateBlue;
+  text-align: center;
+  text-decoration: underline
+}
+
+table {
+  font-family: Calibri;
+  color: white;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+  background-color: SlateBlue;
+  border-collapse: collapse;
+  border: 2px solid navy
+}
+
+table.inner {
+  border: 0px
+}
+
+.table {
+  margin-top: 80px;
+  width: auto;
+  height: auto;
+}
+
+#Birthday_Day {
+  width: 120px;
+}
+
+#Birthday_Month {
+  width: 120px;
+}
+
+#Birthday_Year {
+  width: 120px;
+}
+
+.button {
+  text-align: center;
+  margin-top: 21px;
+}
+
+@media(max-width: 360px) {
+  .Registration {
+    font-size: 60px;
+  }
+}
+
+@media(max-width: 450px) {
+  .h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+@media(max-width: 400px) {
+  .h1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+}
+
+@media(max-width: 365px) {
+  .h1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+}
