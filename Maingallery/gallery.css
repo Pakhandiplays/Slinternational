@@ -1,0 +1,174 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+  }
+  
+  html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    font-family: calibri;
+  }
+  
+  .h1 {
+    font-size: 34px;
+    color: aqua;
+    margin-left: 100px;
+    margin-top: -73;
+  }
+  
+  .h2 {
+    font-size: 22;
+    color: aquamarine;
+    margin-left: 100px;
+    margin-top: -32;
+  
+  
+  }
+  
+  #logo {
+    width: 95;
+  
+  }
+  
+  #movement {
+    background-color: rgb(127, 255, 212);
+    border: 20px;
+    border-color: black;
+    margin-top: -7px;
+    font-size: 20px;
+    padding: 0;
+    border-width: 2;
+    border-style: dashed;
+  }
+  
+  #head {
+    background-color: rgb(117, 167, 68);
+    margin-left: -10px;
+    margin-right: -7;
+  }
+  
+  #l2 {
+    padding: 0;
+  }
+  
+  .nev {
+    margin-top: -59;
+  
+  }
+  
+  nav {
+    text-align: right;
+    font-size: 19;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding-left: 11px;
+    background-color: rgb(111, 204, 17);
+    border-radius: 20px;
+    padding-right: 11px;
+  
+  }
+  
+  .Home {
+    color: red;
+  }
+  
+  nav a:active,
+  :hover {
+    color: red;
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  #checkbtn {
+    float: right;
+    padding-left: 20px;
+    font-size: 30px;
+    text-align: right;
+    display: none;
+  }
+  
+  #check:checked~a {
+    display: block;
+    left: 69%;
+    width: 120px;
+    text-align: center;
+  }
+  
+  @media(max-width: 980px) {
+    #checkbtn {
+      display: block;
+    }
+  
+    nav a {
+      list-style: none;
+      width: 120px;
+      height: 70px;
+      background-color: rgb(149, 227, 93);
+      border-radius: 0%;
+      position: relative;
+      top: 40px;
+      left: 200%;
+    }
+  
+    nav a {
+      display: none;
+    }
+  }
+  
+  @media(max-width: 1280px) {
+    #checkbtn {
+      display: block;
+    }
+  
+    nav a {
+      list-style: none;
+      width: 120px;
+      height: 70px;
+      background-color: rgb(149, 227, 93);
+      border-radius: 0%;
+      position: relative;
+      top: 40px;
+      left: 200%;
+    }
+  
+    nav a {
+      display: none;
+    }
+  }
+  
+  @media(max-width: 360px) {
+    .Registration {
+      font-size: 60px;
+    }
+  }
+  
+  @media(max-width: 450px) {
+    .h1 {
+      font-size: 30px;
+      padding-bottom: 20px;
+    }
+  }
+  
+  @media(max-width: 400px) {
+    .h1 {
+      font-size: 25px;
+      padding-bottom: 20px;
+    }
+  }
+  
+  @media(max-width: 365px) {
+    .h1 {
+      font-size: 20px;
+      padding-bottom: 20px;
+    }
+  }

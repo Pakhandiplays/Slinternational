@@ -1,8 +1,9 @@
 <html>
 
-<head>
-    <title>S.l International School</title>
-    <link rel="stylesheet" href="CSS/Achievements.css">
+<head> <b>
+        <title>S.l International School</title>
+    </b>
+    <link rel="stylesheet" href="CSS/Gallery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -30,33 +31,30 @@
                 <a href="Contact.html" class="Contact"><i class="fa fa-comment"></i>Contact Us</a>
             </nav>
         </div>
+        </ol>
     </div>
+    <div id="body">
+        <div class="login-container">
+            <h2>Login</h2>
+            <form id="loginForm" method="post">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="Username">
+                    <div class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                    <div class="error-message"></div>
+                    <button type="button" class="btn" name="Login" onclick="login()">Login</button>
+                    <p id="Incorrect">Incorrect username and password</p>
+                    <p id="Correct">Correct username and password</p>
+                    <a id="usefull"><button type="submit" class="nothing"></button></a>
+                </div>
+            </form>
+        </div>
     </div>
-    </ol>
-    <div>
-        <h1 id="Achievements" style="margin-top: 0px;">Achievements</h1>
-        <h2 id="First">CBSE RESULT CLASS X (2023-24)</h2>
-        <p style="text-align: center;">
-            <a href="CSS/Image/Achievement_1.jpg" target="_blank"><img src="CSS/Image/Achievement_1.jpg"
-                    alt="Image Not found" class="Achievement_1"></a>
-        </p>
-        <!-- <div class="First">
-<p id="Firsttext"><b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero pariatur est, magnam quas quasi quae cupiditate nulla eum tempore amet recusandae a inventore, necessitatibus laboriosam asperiores obcaecati laudantium, non maxime mollitia perspiciatis dolore dicta neque. Quidem dolorum libero quam ab cum, voluptatem esse laudantium odit.</b></p>
-</div> -->
-
-
-        <footer>
-            <div class="footer">
-                <a href=""><b>Home</b></a><br>
-                <a href=""><b>Achievements</b></a><br>
-                <a href=""><b>Admission</b></a><br>
-                <a href="Gallery.html"><b>Gallery</b></a><br>
-                <a href=""><b>Course</b></a><br>
-                <a href=""><b>Contact</b></a><br>
-                <h4>&copy;2024 Our School. All rights reserved.</h4>
-            </div>
-        </footer>
-    </div>
+    <script src="Js/Galllery.js"></script>
 </body>
 
 </html>

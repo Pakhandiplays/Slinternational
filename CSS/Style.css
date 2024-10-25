@@ -145,3 +145,30 @@ nav a:active,
     display: none;
   }
 }
+
+@media(max-width: 360px) {
+  .Registration {
+    font-size: 60px;
+  }
+}
+
+@media(max-width: 450px) {
+  .h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+@media(max-width: 400px) {
+  .h1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+}
+
+@media(max-width: 365px) {
+  .h1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+}
