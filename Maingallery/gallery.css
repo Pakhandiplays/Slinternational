@@ -33,8 +33,8 @@
   
   #logo {
     width: 95;
-  
   }
+
   
   #movement {
     background-color: rgb(127, 255, 212);
@@ -171,4 +171,27 @@
       font-size: 20px;
       padding-bottom: 20px;
     }
+  }
+
+
+  /* slider */
+ #welcome{
+  color: red;
+  text-align: center;
+  padding-top: 50px;
+ }
+
+  #slide{
+    width: 75vw;
+    /* height: 500px; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+
+  #slider{
+    text-align: center;
+  }
+
+  #img img{
+    width: 15vw;
+    /* height: 960px; */
   }
